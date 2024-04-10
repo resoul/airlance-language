@@ -18,4 +18,5 @@ TODO: Airlance Language module.
   s.ios.deployment_target = '15.0'
 
   s.source_files = 'Sources/**/*.swift'
+  s.dependency 'Airlance', :git => 'https://github.com/resoul/airlance-core.git'
 end
