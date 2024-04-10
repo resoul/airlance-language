@@ -11,7 +11,7 @@ TODO: Airlance Language module.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'resoul' => 'resoul.ua@icloud.com' }
-  s.source           = { :git => 'https://github.com/resoul/airlance-language.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/resoul/airlance-language.git', :tag => 'v0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_versions = ['5']
