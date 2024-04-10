@@ -8,6 +8,12 @@ let package = Package(
     platforms: [
         .iOS(.v15), .tvOS(.v15)
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/resoul/airlance-core.git",
+            .branch("master")
+        )
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
