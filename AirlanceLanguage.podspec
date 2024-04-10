@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Language'
+  s.name             = 'AirlanceLanguage'
   s.version          = '0.1'
   s.summary          = 'Airlance Language'
 
@@ -18,5 +18,5 @@ TODO: Airlance Language module.
   s.ios.deployment_target = '15.0'
 
   s.source_files = 'Sources/**/*.swift'
-  s.dependency 'Airlance', :git => 'https://github.com/resoul/airlance-core.git'
+  s.dependency 'Airlance'
 end
