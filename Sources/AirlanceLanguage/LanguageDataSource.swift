@@ -12,7 +12,10 @@ class LanguageDataSource: LanguageViewModel, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withClass: LanguageViewCell.self, for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "LanguageViewCell", for: indexPath) as? LanguageViewCell else {
+            return UITableViewCell()
+        }
+        
         cell.configure(language: languages[indexPath.row])
         cell.selectionStyle = .none
         

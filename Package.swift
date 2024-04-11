@@ -25,7 +25,7 @@ let package = Package(
                 .product(name: "Airlance", package: "airlance-core")
             ]),
         .testTarget(
-            name: "LanguageTests",
+            name: "AirlanceLanguageTests",
             dependencies: ["AirlanceLanguage"]),
     ]
 )

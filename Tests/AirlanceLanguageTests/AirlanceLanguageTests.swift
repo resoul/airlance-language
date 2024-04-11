@@ -1,7 +1,7 @@
 import XCTest
 @testable import AirlanceLanguage
 
-final class LanguageTests: XCTestCase {
+final class AirlanceLanguageTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

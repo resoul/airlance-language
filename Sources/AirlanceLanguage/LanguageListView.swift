@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Airlance
 
 public class LanguageListView: UITableView {
     
@@ -16,9 +17,9 @@ public class LanguageListView: UITableView {
         self.viewModel = viewModel
         super.init(frame: frame, style: .grouped)
         showsVerticalScrollIndicator = false
-        register(cell: LanguageViewCell.self)
         delegate = languageDelegate
         dataSource = languageDataSource
+        register(LanguageViewCell.self, forCellReuseIdentifier: "LanguageViewCell")
     }
     
     required init?(coder: NSCoder) {
