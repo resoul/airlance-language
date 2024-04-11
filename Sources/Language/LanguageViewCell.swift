@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Airlance
 
 public class LanguageViewCell: UITableViewCell {
     

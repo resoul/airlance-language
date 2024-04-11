@@ -1,5 +1,5 @@
 import XCTest
-@testable import Language
+@testable import AirlanceLanguage
 
 final class LanguageTests: XCTestCase {
     func testExample() throws {
